@@ -28,6 +28,7 @@ export const CollapsibleTable = (text) => {
     if (el.status === "Алдаатай") {
       mistakenArr.push(el);
     }
+    return
   });
 
   return (

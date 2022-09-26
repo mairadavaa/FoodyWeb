@@ -14,7 +14,7 @@ export const CollapsibleTable = (text) => {
   let packedArr = [];
   let deliveredArr = [];
   let mistakenArr = [];
-  text.data.map((el) => {
+  text.data.forEach((el) => {
     if (el.status === "Захиалсан") {
       orderArr.push(el);
     }
@@ -27,7 +27,7 @@ export const CollapsibleTable = (text) => {
     if (el.status === "Алдаатай") {
       mistakenArr.push(el);
     }
-    return "";
+   
   });
 
   return (

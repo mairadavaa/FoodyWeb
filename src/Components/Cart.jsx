@@ -4,9 +4,8 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Box from "@mui/material/box";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { Typography } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
@@ -17,7 +16,7 @@ import Popper from "@mui/material/Popper";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import { useOrderdataContext } from "../Context/orderdataContext";
-import _ from 'lodash'
+import _ from "lodash";
 const options = ["Захиалсан", "Савалсан", "Хүргэгдсэн", "Алдаатай"];
 
 export default function Cart({ orders }) {

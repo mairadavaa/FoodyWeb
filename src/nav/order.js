@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Box from "@mui/material/box";
+import { Box } from "@mui/material";
 import { CollapsibleTable } from "../Components/Table";
 import { useOrderdataContext } from "../Context/orderdataContext";
 import TableCell from "@mui/material/TableCell";
@@ -36,7 +36,6 @@ export const Order = () => {
                 <Table key={index}>
                   <TableHead>
                     <TableRow>
-                      
                       <TableCell>{el}</TableCell>
                     </TableRow>
                   </TableHead>

@@ -7,7 +7,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import Menu from "./nav/menu";
+import {Menu }from "./nav/menu";
 import {Order} from "./nav/order";
 import Dashboard from "./nav/dashboard";
 import { CustomTheme } from "./Context/theme";
